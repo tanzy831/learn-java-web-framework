@@ -59,7 +59,7 @@ public class ReflectionUtil {
             field.setAccessible(true);
             setField(obj, field, true);
         } catch (Exception e) {
-            LOGGER.error("set field failure", e);;
+            LOGGER.error("set field failure", e);
             throw new RuntimeException(e);
         }
     }
