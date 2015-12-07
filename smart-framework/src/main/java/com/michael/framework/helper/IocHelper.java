@@ -10,6 +10,8 @@ import java.util.Map;
 
 /**
  * helper class for inversion of control
+ * will statically initialize a map of bean class-instance pairs,
+ * where the class are chosen from the base package
  * Created by tanzy on 12/7/2015.
  */
 public class IocHelper {
