@@ -11,7 +11,7 @@ import com.michael.framework.util.ClassUtil;
  * including ClassHelper, BeanHelper, IocHelper, ControllerHelper
  * Created by tanzy on 12/8/2015.
  */
-public class LoaderHelper {
+public class HelperLoader {
     public static void init() {
         Class<?> [] classList = {
                 ClassHelper.class,
